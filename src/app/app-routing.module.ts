@@ -1,7 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { TodoComponent } from './todo/todo.component';
+
+const routes: Routes = [
+  {
+    'path': 'todo',
+    component: TodoComponent,
+  },
+  {
+    'path': 'timer',
+    loadChildren: () => import('./timer/timer.module').then(m => m.TimerModule)
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
