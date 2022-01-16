@@ -1,11 +1,17 @@
-
-
 form {
   display: flex;
   flex-direction: column;
   padding-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 label {
-  padding-bottom:2em ;
+  padding-bottom: 2em;
+}
+
+input {
+  padding: 1em;
+  border-radius: 1em;
+  border: 1px solid #bababa;
 }
