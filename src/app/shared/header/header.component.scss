@@ -1,8 +1,19 @@
+
+
+
 ul {
   display: flex;
+  flex-direction: row;
+   margin-top: 2em;
+   margin-left: -2em;
+
+
   list-style: none;
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+
   cursor: pointer;
+
+
 
   li {
     color: #848484;

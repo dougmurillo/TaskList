@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { TodoComponent } from './todo/todo.component';
 import { TimerComponent } from './timer/timer.component';
+import { InputComponent } from './todo/shared/input/input.component';
+import { CheckboxComponent } from './todo/shared/checkbox/checkbox.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     TodoComponent,
-    TimerComponent
+    TimerComponent,
+    InputComponent,
+    CheckboxComponent
   ],
   imports: [
     BrowserModule,
