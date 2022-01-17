@@ -1,23 +1,21 @@
-
 .conteiner-button {
-
- text-align: center;
+  text-align: center;
 }
-
 
 label {
   font-size: 20px;
   color: #ffff;
-
+  cursor: pointer;
 }
-
 
 button {
   padding: 10px;
   padding-left: 12em;
   padding-right: 12em;
 
+  cursor: pointer;
+
   border: none;
-  background-color: #FFA37B;
+  background-color: #ffa37b;
   border-radius: 20px;
 }
