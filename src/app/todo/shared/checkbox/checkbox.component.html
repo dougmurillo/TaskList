@@ -1,20 +1,10 @@
 <form>
-  <p>
-  <div class="tasks">
-    <input type="checkbox" name="" id="">
-    <label for="tasks">This is my first task</label>
-  </div>
-  <p>
-
-  <p>
-  <div class="tasks">
-    <input type="checkbox" name="" id="">
-    <label for="tasks">This is my first task</label>
-  </div>
-  <p>
-
-    
-
-
+  
+  <ul>
+    <li *ngFor="let list of tb_list_task ">
+      <input type="checkbox" name="" id="">
+      <label for="tasks">{{list.nm_task}}</label>
+    </li>
+  </ul>
 
 </form>

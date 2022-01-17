@@ -1,10 +1,17 @@
 form {
   height: 32em;
-  margin: 1.6em;
+  margin: 1em;
 }
 
-.tasks {
+ul {
+  padding: 1em;
   margin-bottom: 0.5em;
+
+  list-style: none;
+}
+
+li {
+  padding-bottom: 1em;
 }
 
 label {
@@ -18,5 +25,3 @@ label {
 input {
   border: 1px solid #707070;
 }
-
-
