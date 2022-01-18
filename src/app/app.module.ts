@@ -9,6 +9,7 @@ import { TimerComponent } from './timer/timer.component';
 import { InputComponent } from './todo/shared/input/input.component';
 import { CheckboxComponent } from './todo/shared/checkbox/checkbox.component';
 import { ButtonComponent } from './todo/shared/button/button.component';
+import { ButtonsComponent } from './timer/shared/buttons/buttons.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ButtonComponent } from './todo/shared/button/button.component';
     TimerComponent,
     InputComponent,
     CheckboxComponent,
-    ButtonComponent
+    ButtonComponent,
+    ButtonsComponent
   ],
   imports: [
     BrowserModule,
