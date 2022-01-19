@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-time',
   templateUrl: './time.component.html',
   styleUrls: ['./time.component.scss']
 })
-export class TimeComponent implements OnInit {
+export class TimeComponent {
 
-  constructor() { }
 
-  ngOnInit(): void {
-  }
+  counterNumber = 0;
+
+
+
 
 }

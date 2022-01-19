@@ -10,7 +10,51 @@
 
 label {
 
-  
+
   color: #FFA37B;
   font-size: 3em;
+}
+
+
+.conteiner-button {
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+  align-items: center;
+
+
+}
+
+
+.imagem {
+  padding-right: 3em ;
+  padding-left: 3em;
+
+}
+
+img {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+label {
+
+  font-size: 20px;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.start {
+  padding: 10px;
+  padding-left: 3em;
+  padding-right: 3em;
+
+
+
+  cursor: pointer;
+
+  border: none;
+  background-color: #ffa37b;
+  border-radius: 20px;
 }
