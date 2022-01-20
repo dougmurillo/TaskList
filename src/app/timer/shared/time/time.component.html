@@ -1,10 +1,10 @@
 <div class="timer-conteiner">
-  <label > {{this.counterNumber}} </label>
+  <label class = "time"  > <countdown #counter [config]="{ leftTime: 60, demand: true }"></countdown>    </label>
 </div>
 
 <div class="conteiner-button">
-  <div class="imagem" ><img src="../../../../assets/image/icons8-stop-64.png" alt="" srcset=""></div>
-  <button class="start" > <label> start </label></button>
-  <div class="imagem" ><img src="../../../../assets/image/icons8-restore-100.png" alt="" srcset=""></div>
+  <div class="imagem" (click)="counter.stop()" ><img src="../../../../assets/image/icons8-stop-64.png" alt="" srcset=""></div>
+  <button class="start" (click)="counter.resume()"> <label class = "start-label"> start </label></button>
+  <div class="imagem" (click)="counter.restart()"  ><img src="../../../../assets/image/icons8-restore-100.png" alt="" srcset=""></div>
 </div>
 
