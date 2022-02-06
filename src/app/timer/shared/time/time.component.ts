@@ -1,6 +1,7 @@
 
-import { Component,  OnInit} from '@angular/core';
-import { interval } from 'rxjs';
+import { Component} from '@angular/core';
+
+
 
 
 @Component({
@@ -9,18 +10,5 @@ import { interval } from 'rxjs';
   styleUrls: ['./time.component.scss']
 })
 
-export class TimeComponent implements OnInit {
-
-
-
-  constructor() { }
-
-
-  ngOnInit(): void {
-
-
-
-  }
-
-}
+export class TimeComponent  {}
 

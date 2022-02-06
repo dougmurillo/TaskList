@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./checkbox.component.scss'],
 })
 export class CheckboxComponent implements OnInit {
+
+
   tb_list_task = [
     {
       id_task: '1',
@@ -18,6 +20,11 @@ export class CheckboxComponent implements OnInit {
     {
       id_task: '3',
       nm_task: 'This is my third task'
+    },
+
+    {
+      id_task: '4',
+      nm_task: 'Mateus'
     }
   ];
 
